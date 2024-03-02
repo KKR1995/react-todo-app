@@ -70,6 +70,10 @@ li {
   text-align: center;
   transition: .2s all ease;
   -webkit-appearance: none;
+  @media(max-width: 524px){
+    margin-top: 15px;
+
+  }
 }
 
 .content-box{
@@ -81,6 +85,10 @@ li {
   margin-bottom: 30px;
   width: 464px;
   margin-top: 40px;
+  @media (max-width: 524px){
+    width: 300px;
+
+  }
 }
 
 .content-box-outer{
